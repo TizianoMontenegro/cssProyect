@@ -1,0 +1,72 @@
+:root{
+	--css-color:#2071f2;
+	--css-light-color:#3091f2;
+}
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+/* header */
+/* .header{ */
+	/* background-color: bisque; */
+/* } */
+.header__container{
+	/* background-color: aqua; */
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 1em;
+}
+.header__logo{
+	font-size: 10em;
+	padding: 5rem 0 0 0;
+	color: var(--css-color);
+}
+.header__title{
+	padding-bottom: .5em;
+	font-weight: 600;
+}
+.header__paragraph{
+	color: #333;
+	padding-bottom: 1em;
+	font-weight: 400;
+}
+.buttons{
+	/* background-color: brown; */
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+.button{
+	background-color: var(--css-color);
+	border: unset;
+	font-weight: 600;
+	padding: .5em 2em;
+	border-radius: 50px;
+}
+.button a{
+	color: aliceblue;
+	font-size: 1rem;
+	text-decoration: none;
+	cursor: unset;
+}
+.button-selected{
+	background-color: var(--css-light-color);
+}
+.button:hover{
+	background-color:var(--css-light-color);
+}
+.button:active{
+	background-color: var(--css-color);
+}
+.button-selected:hover{
+	background-color:var(--css-color);
+}
+.button-selected:active{
+	background-color: var(--css-light-color);
+}
