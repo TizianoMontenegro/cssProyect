@@ -9,27 +9,29 @@
 body{
 	font-family: 'Bai Jamjuree', sans-serif;
 }
-
-/* header */
-.header__container{
+/* wrapper */
+/* .wrapper{ */
+	/* background-color: bisque; */
+/* } */
+.wrapper__container{
 	/* background-color: aqua; */
-	width: 80%;
+	width: 60%;
 	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 1em;
 }
-.header__logo{
+.wrapper__logo{
 	font-size: 10em;
 	padding: 8rem 0 0 0;
 	color: var(--css-color);
 }
-.header__title{
+.wrapper__title{
 	padding-bottom: .5em;
 	font-weight: 600;
 	font-size: 2em;
 }
-.header__paragraph{
+.wrapper__paragraph{
 	color: #333;
 	padding-bottom: 1em;
 	font-weight: 400;
@@ -84,7 +86,7 @@ body{
 	text-align: center;
 }
 .main__title h2{
-	margin-bottom: .3em;
+	margin-bottom: .9em;
 }
 .main__title p{
 	line-height: 1.4em;
@@ -135,7 +137,7 @@ body{
 
 }
 
-.main2__title{
+/* .main2__title{
 	width: 70%;
 	max-width: 100%;
 	margin: 0 auto;
@@ -147,11 +149,82 @@ body{
 .main2__title p{
 	line-height: 1.6em;
 	margin-bottom: 4em;
-}
+} */
 
 .main2__img{
 	max-width: 100%;
 	height: 31.3rem;
 	max-height: 100%;
 	object-fit: scale-down;
+}
+
+
+/* main3 */
+.main3__title{
+	width: 50%;
+	max-width: 100%;
+	margin: 4em auto 2em auto;
+	text-align: center;
+}
+.main3__title h2{
+	font-size: 1.5em;
+	margin-bottom: .9em;
+}
+.main3__title p{
+	font-size: 1em;
+	padding-bottom: 2em;
+}
+
+
+.main3__container{
+	width: 100%;
+}
+
+.main3__section1{
+	width: 80%;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: repeat(3, minmax(250px, 370px));
+	justify-content: space-between;
+}
+.main3__article1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.main3__article1 h3{
+	font-size: 1.3em;
+	margin: 1.8em 0 1em 0;
+}
+.main3__article1 p{
+	font-size: 1em;
+	line-height: 1.8em;
+}
+.main3__icon{
+	font-size: 2.5em;
+}
+
+
+.main3__logos{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main3__logo{
+	width: 10%;
+	height: 10%;
+}
+
+/* wrapper2 */
+.wrapper2{
+	margin-bottom: 7em;
+}
+.text-margin{
+	margin-top: 4em;
 }
